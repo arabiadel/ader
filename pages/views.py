@@ -1,6 +1,9 @@
 from django.shortcuts import render
 from django.views.generic import TemplateView
 
+
+
+
 # Create your views here.
 
 
@@ -9,4 +12,6 @@ def HomePageView(request):
 
 class Homepage(TemplateView):
     template_name = "pages/about.html"
+
+
 
